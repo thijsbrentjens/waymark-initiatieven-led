@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Waymark\n"
 "POT-Creation-Date: 2020-08-19 17:23+0200\n"
-"PO-Revision-Date: 2020-08-19 17:24+0200\n"
+"PO-Revision-Date: 2020-08-19 19:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -23,32 +23,32 @@ msgstr ""
 
 #: assets/dist/waymark-js/js/waymark-js.js:2661
 msgid "Altitude"
-msgstr ""
+msgstr "Hoogte"
 
 #: assets/dist/waymark-js/js/waymark-js.js:3547 inc/Waymark_Front.php:61
 msgid "Total Length: "
-msgstr ""
+msgstr "Totale lengte: "
 
 #: assets/dist/waymark-js/js/waymark-js.js:3547
 msgid "Max Elevation: "
-msgstr ""
+msgstr "Maximale hoogte: "
 
 #: assets/dist/waymark-js/js/waymark-js.js:3547
 msgid "Min Elevation: "
-msgstr ""
+msgstr "Min Elevation: "
 
 #: assets/dist/waymark-js/js/waymark-js.js:3550
 #: inc/Helpers/Waymark_Helper.php:540
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: inc/Admin/Waymark_AJAX.php:55
 msgid "No image metadata available."
-msgstr ""
+msgstr "Geen  metadata voor afbeelding beschikbaar."
 
 #: inc/Admin/Waymark_AJAX.php:76
 msgid "Unknown file upload error."
-msgstr ""
+msgstr "Onbekende fout bij het uploaden."
 
 #: inc/Admin/Waymark_Menu.php:15 inc/Admin/Waymark_Menu.php:98
 #: inc/Waymark_Admin.php:203 inc/Waymark_Install.php:61
@@ -77,268 +77,310 @@ msgstr "Instellingen"
 
 #: inc/Admin/Waymark_Menu.php:119 inc/Admin/Waymark_Meta.php:128
 msgid "Photo Location Detection Not Supported!"
-msgstr ""
+msgstr "Detectie van foto-locatie niet ondersteund!"
 
 #: inc/Admin/Waymark_Menu.php:124 inc/Admin/Waymark_Menu.php:208
 #: inc/Admin/Waymark_Meta.php:141
 msgid "Read the Docs"
-msgstr ""
+msgstr "Lees de documentatie"
 
 #: inc/Admin/Waymark_Menu.php:127
 msgid "Getting Started"
-msgstr ""
+msgstr "Aan de slag"
 
 #: inc/Admin/Waymark_Menu.php:130
 msgid "Using Shortcodes"
-msgstr ""
+msgstr "Shortcodes gebruiken"
 
 #: inc/Admin/Waymark_Menu.php:132
 msgid "The Waymark shortcode allows you to embed Maps in your content."
-msgstr ""
+msgstr "Met de Waymark-shortcode kunt u kaarten toevoegen aan "
 
 #: inc/Admin/Waymark_Menu.php:138
 msgid ""
 "To display a Basemap without any data, simply provide centre coordinates and "
 "zoom level, like this:"
 msgstr ""
+"Als u een basiskaart zonder gegevens wilt weergeven, geeft u alleen "
+"centrumcoördinaten en zoomniveau op, zoals:"
 
 #: inc/Admin/Waymark_Menu.php:141
 msgid "The following shortcode options are available:"
-msgstr ""
+msgstr "Deze opties zijn beschikbaar voor shortcodes:"
 
 #: inc/Admin/Waymark_Menu.php:145
 msgid "Parameter"
-msgstr ""
+msgstr "Parameter"
 
 #: inc/Admin/Waymark_Menu.php:146
 msgid "Value"
-msgstr ""
+msgstr "Waarde"
 
 #: inc/Admin/Waymark_Menu.php:147 inc/Admin/Waymark_Meta.php:49
 #: inc/Waymark_Config.php:20
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
 #: inc/Admin/Waymark_Menu.php:152
 msgid "Map ID"
-msgstr ""
+msgstr "Kaart-ID"
 
 #: inc/Admin/Waymark_Menu.php:158
 msgid "Collection ID"
-msgstr ""
+msgstr "Collectie-ID"
 
 #: inc/Admin/Waymark_Menu.php:164
+#, fuzzy
 msgid "Latitude,Longitude"
-msgstr ""
+msgstr "Breedtegraad, Lengte"
 
 #: inc/Admin/Waymark_Menu.php:165
+#, fuzzy
 msgid ""
 "The initial centre coordinates of the Map. By default Waymark centres the "
 "Map so all Data is visible."
 msgstr ""
+"De eerste centrumcoördinaten van de kaart. Waymark richt de kaart standaard "
+"zodat alle gegevens zichtbaar zijn."
 
 #: inc/Admin/Waymark_Menu.php:171
+#, fuzzy
 msgid ""
 "The initial zoom of the Map. By default Waymark zooms the Map so all Data is "
 "visible."
 msgstr ""
+"De eerste zoom van de kaart. Waymark zoomt standaard in op de kaart zodat "
+"alle gegevens zichtbaar zijn."
 
 #: inc/Admin/Waymark_Menu.php:176
+#, fuzzy
 msgid "Basemap Name"
-msgstr ""
+msgstr "Naam van basiskaart"
 
 #: inc/Admin/Waymark_Menu.php:182
+#, fuzzy
 msgid "Number of pixels"
-msgstr ""
+msgstr "Aantal pixels"
 
 #: inc/Admin/Waymark_Meta.php:9
+#, fuzzy
 msgid "Map Editor"
-msgstr ""
+msgstr "Kaarteditor"
 
 #: inc/Admin/Waymark_Meta.php:30 inc/Waymark_Front.php:56
+#, fuzzy
 msgid "View Fullscreen"
-msgstr ""
+msgstr "Volledig scherm bekijken"
 
 #: inc/Admin/Waymark_Meta.php:31 inc/Waymark_Front.php:57
 msgid "Exit Fullscreen"
-msgstr ""
+msgstr "Sluit Volledige"
 
 #: inc/Admin/Waymark_Meta.php:32 inc/Waymark_Front.php:58
+#, fuzzy
 msgid "Show me where I am"
-msgstr ""
+msgstr "Laat me zien waar ik ben"
 
 #: inc/Admin/Waymark_Meta.php:33 inc/Waymark_Front.php:59
 msgid "Zoom in"
-msgstr ""
+msgstr "Inzoomen"
 
 #: inc/Admin/Waymark_Meta.php:34 inc/Waymark_Front.php:60
 msgid "Zoom out"
-msgstr ""
+msgstr "Uitzoomen"
 
 #: inc/Admin/Waymark_Meta.php:36
+#, fuzzy
 msgid "Draw a Line"
-msgstr ""
+msgstr "Een lijn tekenen"
 
 #: inc/Admin/Waymark_Meta.php:37
 msgid "Upload a Photo"
-msgstr ""
+msgstr "Upload een foto"
 
 #: inc/Admin/Waymark_Meta.php:38
+#, fuzzy
 msgid "Place a Marker"
-msgstr ""
+msgstr "Een markering plaatsen"
 
 #: inc/Admin/Waymark_Meta.php:39
+#, fuzzy
 msgid "Draw a Rectangle"
-msgstr ""
+msgstr "Een rechthoek tekenen"
 
 #: inc/Admin/Waymark_Meta.php:40
+#, fuzzy
 msgid "Draw a Polygon"
-msgstr ""
+msgstr "Een veelhoek tekenen"
 
 #: inc/Admin/Waymark_Meta.php:41
+#, fuzzy
 msgid "Draw a Circle"
-msgstr ""
+msgstr "Een cirkel tekenen"
 
 #: inc/Admin/Waymark_Meta.php:42
+#, fuzzy
 msgid ""
 "Read Lines and Markers from file (GPX/KML/GeoJSON supported, which most apps "
 "should Export to)"
 msgstr ""
+"Lees regels en markeringen uit het bestand (GPX/KML/GeoJSON ondersteund, "
+"waar de meeste apps naar exporteren)"
 
 #: inc/Admin/Waymark_Meta.php:43
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #: inc/Admin/Waymark_Meta.php:44
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 #: inc/Admin/Waymark_Meta.php:45
+#, fuzzy
 msgid "Finish editing"
-msgstr ""
+msgstr "Voltooien van bewerken"
 
 #: inc/Admin/Waymark_Meta.php:46
 msgid "Upload Image"
-msgstr ""
+msgstr "Afbeelding uploaden"
 
 #: inc/Admin/Waymark_Meta.php:47 inc/Admin/Waymark_Settings.php:316
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: inc/Admin/Waymark_Meta.php:48
 msgid "Image URL"
-msgstr ""
+msgstr "Afbeelding URL"
 
 #: inc/Admin/Waymark_Meta.php:50 inc/Admin/Waymark_Settings.php:347
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: inc/Admin/Waymark_Meta.php:51
+#, fuzzy
 msgid "Lat,Lng"
-msgstr ""
+msgstr "Lat,Lng"
 
 #: inc/Admin/Waymark_Meta.php:52
 msgid "Are you sure you want to delete this"
-msgstr ""
+msgstr "Bent u zeker dat u dit wilt verwijderen"
 
 #: inc/Admin/Waymark_Meta.php:53
 msgid "Search..."
-msgstr ""
+msgstr "Zoeken..."
 
 #: inc/Admin/Waymark_Meta.php:54 inc/Admin/Waymark_Settings.php:88
 #: inc/Admin/Waymark_Settings.php:101 inc/Admin/Waymark_Settings.php:105
 #: inc/Admin/Waymark_Settings.php:113 inc/Admin/Waymark_Settings.php:126
 #: inc/Admin/Waymark_Settings.php:139 inc/Admin/Waymark_Settings.php:150
 msgid "Marker"
-msgstr ""
+msgstr "Symbool"
 
 #: inc/Admin/Waymark_Meta.php:55 inc/Admin/Waymark_Settings.php:169
 #: inc/Admin/Waymark_Settings.php:182 inc/Admin/Waymark_Settings.php:186
 #: inc/Admin/Waymark_Settings.php:194 inc/Admin/Waymark_Settings.php:206
 #: inc/Admin/Waymark_Settings.php:217
 msgid "Line"
-msgstr ""
+msgstr "Regel"
 
 #: inc/Admin/Waymark_Meta.php:56 inc/Admin/Waymark_Settings.php:236
 #: inc/Admin/Waymark_Settings.php:249 inc/Admin/Waymark_Settings.php:253
 #: inc/Admin/Waymark_Settings.php:261 inc/Admin/Waymark_Settings.php:273
 #: inc/Admin/Waymark_Settings.php:284
 msgid "Shape"
-msgstr ""
+msgstr "Vorm"
 
 #: inc/Admin/Waymark_Meta.php:57 inc/Admin/Waymark_Settings.php:83
 msgid "Markers"
-msgstr ""
+msgstr "Markers"
 
 #: inc/Admin/Waymark_Meta.php:58 inc/Admin/Waymark_Settings.php:164
 msgid "Lines"
-msgstr ""
+msgstr "Regels"
 
 #: inc/Admin/Waymark_Meta.php:59 inc/Admin/Waymark_Settings.php:231
 msgid "Shapes"
-msgstr ""
+msgstr "Vormen"
 
 #: inc/Admin/Waymark_Meta.php:60
+#, fuzzy
 msgid "Waymark Error"
-msgstr ""
+msgstr "Fout op wegmarkering"
 
 #: inc/Admin/Waymark_Meta.php:61
+#, fuzzy
 msgid "Waymark Info"
-msgstr ""
+msgstr "Waymark-info"
 
 #: inc/Admin/Waymark_Meta.php:62
+#, fuzzy
 msgid "This file type is not supported."
-msgstr ""
+msgstr "Dit bestandstype wordt niet ondersteund."
 
 #: inc/Admin/Waymark_Meta.php:63
+#, fuzzy
 msgid "Could not convert this file to GeoJSON."
-msgstr ""
+msgstr "Kan dit bestand niet converteren naar GeoJSON."
 
 #: inc/Admin/Waymark_Meta.php:64
+#, fuzzy
 msgid "File upload error."
-msgstr ""
+msgstr "Onbekende fout bij het uploaden."
 
 #: inc/Admin/Waymark_Meta.php:65
+#, fuzzy
 msgid "Could not retrieve Photo metadata."
-msgstr ""
+msgstr "Kan de metagegevens van foto's niet ophalen."
 
 #: inc/Admin/Waymark_Meta.php:111
+#, fuzzy
 msgid "Download the Overlays added to this Map in the selected format."
 msgstr ""
+"Download de overlays die aan deze kaart zijn toegevoegd in de geselecteerde "
+"indeling."
 
 #: inc/Admin/Waymark_Meta.php:120
+#, fuzzy
 msgid ""
 "Add this Map to your content with this Shortcode. Click here for more "
 "details."
 msgstr ""
+"Voeg deze kaart toe aan je content met deze Shortcode. Klik hier voor meer "
+"informatie."
 
 #: inc/Admin/Waymark_Meta.php:132
+#, fuzzy
 msgid "Read from File"
-msgstr ""
+msgstr "Lezen uit bestand"
 
 #: inc/Admin/Waymark_Meta.php:133
+#, fuzzy
 msgid ""
 "You can read Lines and Markers from GPX, KML and GeoJSON files (most mapping "
 "apps will be able to export to one of these)."
 msgstr ""
+"U lijnen en markeringen lezen uit GPX-, KML- en GeoJSON-bestanden (de meeste "
+"mapping-apps kunnen naar een van deze bestanden exporteren)."
 
 #: inc/Admin/Waymark_Meta.php:135 inc/Admin/Waymark_Settings.php:88
 #: inc/Admin/Waymark_Settings.php:169 inc/Admin/Waymark_Settings.php:236
 msgid "Types"
-msgstr ""
+msgstr "Types"
 
 #: inc/Admin/Waymark_Meta.php:138 inc/Admin/Waymark_Settings.php:49
 #: inc/Admin/Waymark_Settings.php:53 inc/Admin/Waymark_Settings.php:61
 #: inc/Admin/Waymark_Settings.php:71
+#, fuzzy
 msgid "Basemap"
-msgstr ""
+msgstr "Basismap"
 
 #: inc/Admin/Waymark_Settings.php:32 inc/Admin/Waymark_Settings.php:37
+#, fuzzy
 msgid "Basemaps"
-msgstr ""
+msgstr "Basiskaarten"
 
 #: inc/Admin/Waymark_Settings.php:38
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "<span class=\"waymark-lead\">Waymark uses the excellent <a href=\"%s"
 "\">OpenStreetMap</a> as it’s default Basemap and allows integration for "
@@ -351,622 +393,805 @@ msgid ""
 "as the default, unless specified in the shortcode like this: %s. Drag to re-"
 "order, remove all to restore defaults.</small>"
 msgstr ""
+"<span class=\"waymark-lead\">Waymark maakt gebruik van de uitstekende <a "
+"href=\"%s\">OpenStreetMap</a> als het standaard Basemap en maakt integratie "
+"voor diensten die <a href=\"%s\">betegelde web maps</a>ondersteunen.</"
+"span><br /><br /><a href=\"%s\">Thunderforest</a> en <a href=\"%s\">Mapbox</"
+"a> zijn voorbeelden van providers die gemakkelijk toegang bieden tot "
+"prachtige Basemaps (inclusief satellietbeelden). Ze vereisen registratie, "
+"maar hebben een gratis gebruikslaag.<br /><br /><small><b>Pro Tip!</b> Als u "
+"meer dan één basemap hebt, u tussen deze kaarten schakelen wanneer u de "
+"kaart bekijkt. De eerste lijst wordt als standaard gebruikt, tenzij dit is "
+"opgegeven in de shortcode: %s. Sleep naar de orde, verwijder alles om "
+"standaardinstellingen te herstellen.</small>"
 
 #: inc/Admin/Waymark_Settings.php:41 inc/Admin/Waymark_Settings.php:93
 #: inc/Admin/Waymark_Settings.php:173 inc/Admin/Waymark_Settings.php:240
 #: inc/Admin/Waymark_Settings.php:307
+#, fuzzy
 msgid "View Docs &raquo;"
-msgstr ""
+msgstr "Documenten bekijken »"
 
 #: inc/Admin/Waymark_Settings.php:49
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #: inc/Admin/Waymark_Settings.php:51
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The Layer Name will appear in a dropdown list shown by the Map when multiple "
 "Basemaps have been entered. You can change the default basemap in the "
 "shortcode: %s"
 msgstr ""
+"De laagnaam wordt weergegeven in een vervolgkeuzelijst die door de kaart "
+"wordt weergegeven wanneer er meerdere basiskaarten zijn ingevoerd. U de "
+"standaardbasismap in de shortcode wijzigen: %s"
 
 #: inc/Admin/Waymark_Settings.php:63
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Many mapping services support the Slippy Map format. Waymark requires URLs "
 "that contain {z} (zoom level) and {x}/{y} (tile coordinates). For example "
 "the OpenCycleMap URL is %s."
 msgstr ""
+"Veel kaartservices ondersteunen de Slippy Map-indeling. Waymark vereist "
+"URL's die {z} (zoomniveau) en {x}/{y} (tegelcoördinaten) bevatten. De "
+"OpenCycleMap-URL is bijvoorbeeld %s."
 
 #: inc/Admin/Waymark_Settings.php:73
+#, fuzzy
 msgid ""
 "Mapping services often have the requirement that attribution is displayed by "
 "the map. Text and HTML links are supported."
 msgstr ""
+"Kaartservices hebben vaak de vereiste dat attributie wordt weergegeven door "
+"de kaart. Tekst- en HTML-koppelingen worden ondersteund."
 
 #: inc/Admin/Waymark_Settings.php:89
+#, fuzzy
 msgid ""
 "Customise how Markers are displayed on the Map. Set these styles once, then "
 "select the appropriate Type when you add to the Map."
 msgstr ""
+"Pas aan hoe markeringen op de kaart worden weergegeven. Stel deze stijlen "
+"eenmaal in en selecteer het juiste type wanneer u aan de kaart toevoegt."
 
 #: inc/Admin/Waymark_Settings.php:90 inc/Admin/Waymark_Settings.php:175
 #: inc/Admin/Waymark_Settings.php:242 inc/Admin/Waymark_Settings.php:309
+#, fuzzy
 msgid ""
 "<b>Pro Tip!</b> The first listed will be used as the default. Drag to re-"
 "order, remove all to restore defaults."
 msgstr ""
+"<b>Pro Tip!</b> De eerste vermeld zal worden gebruikt als de standaard. "
+"Sleep om de volgorde opnieuw te ordenen, verwijder alles om "
+"standaardinstellingen te herstellen."
 
 #: inc/Admin/Waymark_Settings.php:101 inc/Admin/Waymark_Settings.php:182
 #: inc/Admin/Waymark_Settings.php:249
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #: inc/Admin/Waymark_Settings.php:103
+#, fuzzy
 msgid ""
 "What kind of Marker is this? E.g. \"Photo\", \"Grocery Store\", \"Warning!"
 "\". The Marker Label is displayed in the Tooltip (when hovering over the "
 "Marker) and in the Marker Info Window. Once saved, Marker labels can not be "
 "edited."
 msgstr ""
+"Wat voor marker is dit? Bijvoorbeeld \"Photo\", \"Grocery Store\", \"Warning!"
+"\". Het markeringslabel wordt weergegeven in de knopinfo (wanneer u over de "
+"markering zweeft) en in het venster Markeringsinfo. Eenmaal opgeslagen, "
+"kunnen markerlabels niet worden bewerkt."
 
 #: inc/Admin/Waymark_Settings.php:113 inc/Admin/Waymark_Settings.php:194
 #: inc/Admin/Waymark_Settings.php:261
 msgid "Colour"
-msgstr ""
+msgstr "Kleur"
 
 #: inc/Admin/Waymark_Settings.php:115
+#, fuzzy
 msgid "The Marker background colour. Thanks awesome-markers!"
-msgstr ""
+msgstr "De achtergrondkleur Marker. Dankzij awesome-markers!"
 
 #: inc/Admin/Waymark_Settings.php:126
 msgid "Icon Name"
-msgstr ""
+msgstr "Icoon naam"
 
 #: inc/Admin/Waymark_Settings.php:128
+#, fuzzy
 msgid ""
 "The desired icon name, e.g. \"camera\". Full list provided by Ionicons. "
 "Thanks Ionicons!"
 msgstr ""
+"De gewenste pictogramnaam, bijvoorbeeld \"camera\". Volledige lijst van "
+"Ionicons. Dankzij Ionicons!"
 
 #: inc/Admin/Waymark_Settings.php:139
 msgid "Icon Colour"
-msgstr ""
+msgstr "Icon Colour"
 
 #: inc/Admin/Waymark_Settings.php:141
+#, fuzzy
 msgid "The colour of the icon. Click \"Select Colour\" to select."
 msgstr ""
+"De kleur van het pictogram. Klik op 'Kleur selecteren' om te selecteren."
 
 #: inc/Admin/Waymark_Settings.php:150 inc/Admin/Waymark_Settings.php:217
 #: inc/Admin/Waymark_Settings.php:284
+#, fuzzy
 msgid "Show Initially"
-msgstr ""
+msgstr "In eerste instantie weergeven"
 
 #: inc/Admin/Waymark_Settings.php:152 inc/Admin/Waymark_Settings.php:219
 #: inc/Admin/Waymark_Settings.php:286
+#, fuzzy
 msgid ""
 "When using the Overlay Filter you can choose to show/hide certain Types when "
 "the Map initially loads."
 msgstr ""
+"Wanneer u het overlayfilter gebruikt, u ervoor kiezen bepaalde typen weer te "
+"geven/verbergen wanneer de kaart in eerste instantie wordt geladen."
 
 #: inc/Admin/Waymark_Settings.php:170
+#, fuzzy
 msgid ""
 "Customise how Lines are displayed on the Map. Set these styles once, then "
 "select the appropriate Type when you add to the Map."
 msgstr ""
+"Aanpassen hoe lijnen worden weergegeven op de kaart. Stel deze stijlen "
+"eenmaal in en selecteer het juiste type wanneer u aan de kaart toevoegt."
 
 #: inc/Admin/Waymark_Settings.php:184
+#, fuzzy
 msgid ""
 "What kind of Line is this? E.g. \"Easy\", \"Walking Only\", \"Dark Red\". "
 "The Line Label is displayed in the Tooltip (when hovering over the Line) and "
 "in the Line Info Window. Once saved, Line labels can not be edited."
 msgstr ""
+"Wat voor lijn is dit? Bijvoorbeeld \"Easy\", \"Walking Only\", \"Dark Red\". "
+"Het lijnlabel wordt weergegeven in de knopinfo (wanneer u over de lijn "
+"zweeft) en in het venster Lijninfo. Eenmaal opgeslagen, kunnen lijnlabels "
+"niet worden bewerkt."
 
 #: inc/Admin/Waymark_Settings.php:196
+#, fuzzy
 msgid "The colour of the Line. Click \"Select Colour\" to select."
-msgstr ""
+msgstr "De kleur van de lijn. Klik op 'Kleur selecteren' om te selecteren."
 
 #: inc/Admin/Waymark_Settings.php:206
 msgid "Weight"
-msgstr ""
+msgstr "Gewicht"
 
 #: inc/Admin/Waymark_Settings.php:208
+#, fuzzy
 msgid "The width of the Line, in pixels."
-msgstr ""
+msgstr "De breedte van de lijn, in pixels."
 
 #: inc/Admin/Waymark_Settings.php:237
+#, fuzzy
 msgid ""
 "Customise how Shapes are displayed on the Map. Set these styles once, then "
 "select the appropriate Type when you add to the Map."
 msgstr ""
+"Aanpassen hoe vormen worden weergegeven op de kaart. Stel deze stijlen "
+"eenmaal in en selecteer het juiste type wanneer u aan de kaart toevoegt."
 
 #: inc/Admin/Waymark_Settings.php:251
+#, fuzzy
 msgid ""
 "What kind of Shape is this? E.g. \"Park\", \"Danger!\", \"Light Blue\". The "
 "Shape Label is displayed in the Tooltip (when hovering over the Shape) and "
 "in the Shape Info Window. Once saved, Shape labels can not be edited."
 msgstr ""
+"Wat voor vorm is dit? Bijvoorbeeld \"Park\", \"Danger!\", \"Lichtblauw\". "
+"Het shapelabel wordt weergegeven in de knopinfo (wanneer u over de vorm "
+"zweeft) en in het venster Vorminfo. Eenmaal opgeslagen, kunnen shapelabels "
+"niet worden bewerkt."
 
 #: inc/Admin/Waymark_Settings.php:263
+#, fuzzy
 msgid "The colour of the Shape. Click \"Select Colour\" to select."
-msgstr ""
+msgstr "De kleur van de vorm. Klik op 'Kleur selecteren' om te selecteren."
 
 #: inc/Admin/Waymark_Settings.php:273
 msgid "Fill Opacity"
-msgstr ""
+msgstr "Opvul-opaciteit"
 
 #: inc/Admin/Waymark_Settings.php:275
+#, fuzzy
 msgid ""
 "The opacity of the inside of the shape, between 0.0 and 1.0 (e.g. \"0.5\")."
 msgstr ""
+"De dekking van de binnenkant van de vorm, tussen 0,0 en 1,0 (bijvoorbeeld "
+"\"0,5\")."
 
 #: inc/Admin/Waymark_Settings.php:298 inc/Admin/Waymark_Settings.php:303
 #: inc/Admin/Waymark_Settings.php:316 inc/Admin/Waymark_Settings.php:321
 #: inc/Admin/Waymark_Settings.php:329 inc/Admin/Waymark_Settings.php:338
 #: inc/Admin/Waymark_Settings.php:347 inc/Admin/Waymark_Settings.php:363
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: inc/Admin/Waymark_Settings.php:318
+#, fuzzy
 msgid "The title appears next to the input field."
-msgstr ""
+msgstr "De titel wordt naast het invoerveld weergegeven."
 
 #: inc/Admin/Waymark_Settings.php:329
 msgid "Default"
-msgstr ""
+msgstr "Standaard"
 
 #: inc/Admin/Waymark_Settings.php:331
+#, fuzzy
 msgid ""
 "The default value for the input field. For Select and Multi-Select enter the "
 "option/comma-separated options to be selected by default."
 msgstr ""
+"De standaardwaarde voor het invoerveld. Voer voor Selecteren en Multi-Select "
+"de opties in die optie/komma zijn gescheiden die standaard moeten worden "
+"geselecteerd."
 
 #: inc/Admin/Waymark_Settings.php:338
 msgid "Tip"
-msgstr ""
+msgstr "Tip"
 
 #: inc/Admin/Waymark_Settings.php:340
+#, fuzzy
 msgid ""
 "A tip provides additional information about an input field... just like this!"
 msgstr ""
+"Een tip geeft aanvullende informatie over een invoerveld... net als dit!"
 
 #: inc/Admin/Waymark_Settings.php:349
+#, fuzzy
 msgid "The type of input field to use."
-msgstr ""
+msgstr "Het type invoerveld dat u moet gebruiken."
 
 #: inc/Admin/Waymark_Settings.php:351
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: inc/Admin/Waymark_Settings.php:352
 msgid "Textarea"
-msgstr ""
+msgstr "Tekstveld"
 
 #: inc/Admin/Waymark_Settings.php:353
 msgid "Rich Text"
-msgstr ""
+msgstr "Richtext"
 
 #: inc/Admin/Waymark_Settings.php:354
 msgid "Select"
-msgstr ""
+msgstr "Selecteer"
 
 #: inc/Admin/Waymark_Settings.php:355
 msgid "Multi-Select"
-msgstr ""
+msgstr "Meerdere selectie"
 
 #: inc/Admin/Waymark_Settings.php:363
 msgid "Options"
-msgstr ""
+msgstr "Opties"
 
 #: inc/Admin/Waymark_Settings.php:365
+#, fuzzy
 msgid "A comma-separated list of options for the input."
-msgstr ""
+msgstr "Een door komma's gescheiden lijst met opties voor de invoer."
 
 #: inc/Admin/Waymark_Settings.php:391
 msgid "Misc."
-msgstr ""
+msgstr "Div."
 
 #: inc/Admin/Waymark_Settings.php:395
 msgid "Map Options"
-msgstr ""
+msgstr "Kaart Opties"
 
 #: inc/Admin/Waymark_Settings.php:396
+#, fuzzy
 msgid "Use these options to change how Maps are displayed."
-msgstr ""
+msgstr "Gebruik deze opties om de weergave van Kaarten te wijzigen."
 
 #: inc/Admin/Waymark_Settings.php:403
 msgid "Map Height"
-msgstr ""
+msgstr "Kaarthoogte"
 
 #: inc/Admin/Waymark_Settings.php:405
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Specify the desired height of the Map (in pixels). The Map will "
 "automatically adjust it’s width to fill the space available to it. Pro Tip! "
 "This will affect all Maps, but you can change the height of an individual "
 "Map through the shortcode: %s"
 msgstr ""
+"Geef de gewenste hoogte van de kaart op (in pixels). De kaart past "
+"automatisch de breedte aan om de beschikbare ruimte te vullen. Pro Tip! Dit "
+"is van invloed op alle Kaarten, maar u de hoogte van een afzonderlijke kaart "
+"wijzigen via de shortcode: %s"
 
 #: inc/Admin/Waymark_Settings.php:417
+#, fuzzy
 msgid "Type Labels"
-msgstr ""
+msgstr "Labels typen"
 
 #: inc/Admin/Waymark_Settings.php:419
+#, fuzzy
 msgid ""
 "Whether to display the Marker/Line/Shape Type Label in the tooltip and Info "
 "Window."
 msgstr ""
+"Of u het label Markering/Lijn/Vormtype wilt weergeven in de knopinfo en het "
+"infovenster."
 
 #: inc/Admin/Waymark_Settings.php:421 inc/Admin/Waymark_Settings.php:463
 #: inc/Admin/Waymark_Settings.php:475 inc/Admin/Waymark_Settings.php:525
 msgid "Show"
-msgstr ""
+msgstr "Toon"
 
 #: inc/Admin/Waymark_Settings.php:422 inc/Admin/Waymark_Settings.php:464
 #: inc/Admin/Waymark_Settings.php:476 inc/Admin/Waymark_Settings.php:526
 msgid "Hide"
-msgstr ""
+msgstr "Verberg"
 
 #: inc/Admin/Waymark_Settings.php:430
+#, fuzzy
 msgid "Default Centre"
-msgstr ""
+msgstr "Standaardcentrum"
 
 #: inc/Admin/Waymark_Settings.php:432
+#, fuzzy
 msgid ""
 "Waymark centres the Map automatically when displaying data. These "
 "coordinates (Latitude,Longitude) will be used when there is no data "
 "available."
 msgstr ""
+"Waymark richt de kaart automatisch bij het weergeven van gegevens. Deze "
+"coördinaten (Latitude,Longitude) worden gebruikt wanneer er geen gegevens "
+"beschikbaar zijn."
 
 #: inc/Admin/Waymark_Settings.php:445
 msgid "Default Zoom"
-msgstr ""
+msgstr "Standaard Zoom"
 
 #: inc/Admin/Waymark_Settings.php:447
+#, fuzzy
 msgid ""
 "Waymark zooms the Map automatically when displaying data. This zoom level "
 "(0-18) will be used when there is no data available."
 msgstr ""
+"Waymark zoomt automatisch in op de kaart bij het weergeven van gegevens. Dit "
+"zoomniveau (0-18) wordt gebruikt wanneer er geen gegevens beschikbaar zijn."
 
 #: inc/Admin/Waymark_Settings.php:459
 msgid "Image Gallery"
-msgstr ""
+msgstr "Afbeeldingsgalerij"
 
 #: inc/Admin/Waymark_Settings.php:461
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Whether to display an image gallery for Markers that have images associated "
 "with them. Pro Tip! This will affect all Maps, but you can choose to show/"
 "hide the gallery of an individual Map through the shortcode: %s"
 msgstr ""
+"Of u een afbeeldingsgalerie wilt weergeven voor markeringen waaraan "
+"afbeeldingen zijn gekoppeld. Pro Tip! Dit heeft gevolgen voor alle Kaarten, "
+"maar u ervoor kiezen om de galerij van een afzonderlijke kaart weer te geven/"
+"verbergen via de shortcode: %s"
 
 #: inc/Admin/Waymark_Settings.php:471
+#, fuzzy
 msgid "Overlay Filter"
-msgstr ""
+msgstr "Overlayfilter"
 
 #: inc/Admin/Waymark_Settings.php:473
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Allow the user to filter which Markers, Lines and Shapes are currently "
 "visible on the Map. Pro Tip! This will affect all Maps, but you can choose "
 "to show/hide the filter for individual Maps through the shortcode: %s"
 msgstr ""
+"Laat de gebruiker filteren welke markeringen, lijnen en vormen momenteel "
+"zichtbaar zijn op de kaart. Pro Tip! Dit heeft gevolgen voor alle Kaarten, "
+"maar u ervoor kiezen om het filter voor afzonderlijke Kaarten weer te geven/"
+"verbergen via de shortcode: %s"
 
 #: inc/Admin/Waymark_Settings.php:483
+#, fuzzy
 msgid "Public Export"
-msgstr ""
+msgstr "Openbare export"
 
 #: inc/Admin/Waymark_Settings.php:485
+#, fuzzy
 msgid ""
 "Enable visitors to download the Overlays (Markers, Lines and Shapes) "
 "currently displayed on the Map Details page. Can be used in conjunction with "
 "the Overlay Filter to select which Overlays to download. GeoJSON, GPX and "
 "KML formats supported."
 msgstr ""
+"Stel bezoekers in staat om de overlays (markeringen, lijnen en vormen) te "
+"downloaden die momenteel worden weergegeven op de pagina Kaartdetails. Kan "
+"worden gebruikt in combinatie met het overlayfilter om te selecteren welke "
+"overlays u wilt downloaden. GeoJSON- en GPX- en KML-formaten worden "
+"ondersteund."
 
 #: inc/Admin/Waymark_Settings.php:491
 msgid "Collection Options"
-msgstr ""
+msgstr "Collectie Opties"
 
 #: inc/Admin/Waymark_Settings.php:492
+#, fuzzy
 msgid "How Collections are displayed."
-msgstr ""
+msgstr "Hoe collecties worden weergegeven."
 
 #: inc/Admin/Waymark_Settings.php:498
+#, fuzzy
 msgid "Link to Maps"
-msgstr ""
+msgstr "Koppeling naar Kaarten"
 
 #: inc/Admin/Waymark_Settings.php:500
+#, fuzzy
 msgid ""
 "Whether to display a link to the individual Map Details page when clicking "
 "on a Marker/Line/Shape displayed by the Collection."
 msgstr ""
+"Of u een koppeling naar de pagina afzonderlijke kaartdetails wilt weergeven "
+"wanneer u op een markering/lijn/vorm klikt die door de verzameling wordt "
+"weergegeven."
 
 #: inc/Admin/Waymark_Settings.php:506
+#, fuzzy
 msgid "Link from Maps"
-msgstr ""
+msgstr "Koppeling vanuit Kaarten"
 
 #: inc/Admin/Waymark_Settings.php:508
+#, fuzzy
 msgid ""
 "Whether to display a link to the Collection(s) that a Map belongs to on the "
 "Map Details page."
 msgstr ""
+"Of u een koppeling wilt weergeven naar de verzameling(en) waartoe een kaart "
+"behoort op de pagina Kaartdetails."
 
 #: inc/Admin/Waymark_Settings.php:514
 msgid "Shortcode Options"
-msgstr ""
+msgstr "Shortcode opties"
 
 #: inc/Admin/Waymark_Settings.php:515
+#, fuzzy
 msgid "How Maps are embedded into your content using the shortcode."
-msgstr ""
+msgstr "Hoe Kaarten zijn ingebed in uw inhoud met behulp van de shortcode."
 
 #: inc/Admin/Waymark_Settings.php:521
+#, fuzzy
 msgid "Shortcode Header"
-msgstr ""
+msgstr "Kortecode-header"
 
 #: inc/Admin/Waymark_Settings.php:523
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The shortcode header displays the title and link to the Map or Collection. "
 "Pro Tip! This will affect all shortcodes, but you can override the setting "
 "through the shortcode: %s (the value must be either 0 or 1)."
 msgstr ""
+"De shortcode-header geeft de titel en de koppeling naar de kaart of "
+"verzameling weer. Pro Tip! Dit is van invloed op alle shortcodes, maar u de "
+"instelling overschrijven via de shortcode: %s (de waarde moet 0 of 1 zijn)."
 
 #: inc/Admin/Waymark_Settings.php:533
+#, fuzzy
 msgid "Header for Admin"
-msgstr ""
+msgstr "Koptekst voor beheerder"
 
 #: inc/Admin/Waymark_Settings.php:535
+#, fuzzy
 msgid ""
 "Use this Setting to always show the Shortcode Header when signed in as "
 "admin, useful for quickly navigating to embeded Maps."
 msgstr ""
+"Gebruik deze instelling om de Shortcode-header altijd weer te geven wanneer "
+"u is aangemeld als beheerder, handig om snel te navigeren naar ingesloten "
+"kaarten."
 
 #: inc/Admin/Waymark_Settings.php:537
+#, fuzzy
 msgid "Use Setting"
-msgstr ""
+msgstr "Instelling gebruiken"
 
 #: inc/Admin/Waymark_Settings.php:538
 msgid "Always Show"
-msgstr ""
+msgstr "Altijd weergeven"
 
 #: inc/Admin/Waymark_Settings.php:545
+#, fuzzy
 msgid "Elevation Options"
-msgstr ""
+msgstr "Hoogteopties"
 
 #: inc/Admin/Waymark_Settings.php:546
+#, fuzzy
 msgid "Lines with elevation data."
-msgstr ""
+msgstr "Lijnen met hoogtegegevens."
 
 #: inc/Admin/Waymark_Settings.php:552
+#, fuzzy
 msgid "Elevation Profile"
-msgstr ""
+msgstr "Hoogteprofiel"
 
 #: inc/Admin/Waymark_Settings.php:554
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Display an interactive elevation profile graph below the Map for Lines that "
 "have elevation data. Pro Tip! You can choose to show/hide the elevation "
 "graph of an individual Map through the shortcode: %s"
 msgstr ""
+"Geef een interactieve hoogteprofielgrafiek weer onder de kaart voor lijnen "
+"met hoogtegegevens. Pro Tip! U ervoor kiezen om de hoogtegrafiek van een "
+"afzonderlijke kaart weer te geven/verbergen via de shortcode: %s"
 
 #: inc/Admin/Waymark_Settings.php:556
+#, fuzzy
 msgid "Show on Map Details"
-msgstr ""
+msgstr "Weergeven op kaartdetails"
 
 #: inc/Admin/Waymark_Settings.php:557
+#, fuzzy
 msgid "Show everywhere"
-msgstr ""
+msgstr "Toon overal"
 
 #: inc/Admin/Waymark_Settings.php:558
 msgid "Hide everywhere"
-msgstr ""
+msgstr "Overal verbergen"
 
 #: inc/Admin/Waymark_Settings.php:565
+#, fuzzy
 msgid "Elevation Units"
-msgstr ""
+msgstr "Hoogte-eenheden"
 
 #: inc/Admin/Waymark_Settings.php:567
+#, fuzzy
 msgid "Display elevation data in metric (m/km) or imperial (ft/mi) units."
 msgstr ""
+"Geef hoogtegegevens weer in metrische (m/km) of keizerlijke (ft/mi) eenheden."
 
 #: inc/Admin/Waymark_Settings.php:569
+#, fuzzy
 msgid "Metric (m/km)"
-msgstr ""
+msgstr "Metrische (m/km)"
 
 #: inc/Admin/Waymark_Settings.php:570
+#, fuzzy
 msgid "Imperial (ft/mi)"
-msgstr ""
+msgstr "Imperial (ft/mi)"
 
 #: inc/Admin/Waymark_Settings.php:578
+#, fuzzy
 msgid "Elevation Colour"
-msgstr ""
+msgstr "Hoogtekleur"
 
 #: inc/Admin/Waymark_Settings.php:580
+#, fuzzy
 msgid "The colour of the elevation graph and associated Line."
-msgstr ""
+msgstr "De kleur van de hoogtegrafiek en de bijbehorende lijn."
 
 #: inc/Admin/Waymark_Settings.php:589
+#, fuzzy
 msgid "Show Initially?"
-msgstr ""
+msgstr "Laten zien in eerste instantie?"
 
 #: inc/Admin/Waymark_Settings.php:591
+#, fuzzy
 msgid ""
 "Whether to show the elevation profile when the Map loads. If set to No, the "
 "user must click on a Line in order to display the elevation data. If there "
 "are multiple Lines with elevation data, the one added to the editor first "
 "will be the one shown initially."
 msgstr ""
+"Of u het hoogteprofiel wilt weergeven wanneer de kaart wordt geladen. Als "
+"deze is ingesteld op Nee, moet de gebruiker op een regel klikken om de "
+"hoogtegegevens weer te geven. Als er meerdere lijnen met hoogtegegevens "
+"zijn, wordt de tekst die eerst aan de editor wordt toegevoegd, de eerste "
+"lijn die in eerste instantie wordt weergegeven."
 
 #: inc/Admin/Waymark_Settings.php:597
 msgid "Editor Options"
-msgstr ""
+msgstr "Editor opties"
 
 #: inc/Admin/Waymark_Settings.php:598
+#, fuzzy
 msgid "Customising the Map Editor."
-msgstr ""
+msgstr "Het aanpassen van de kaarteditor."
 
 #: inc/Admin/Waymark_Settings.php:604
 msgid "Confirm Delete?"
-msgstr ""
+msgstr "Bevestig verwijderen?"
 
 #: inc/Admin/Waymark_Settings.php:606
+#, fuzzy
 msgid ""
 "Whether to show a confirmation dialog before deleting Markers/Lines/Shapes "
 "from the Map. Pro Tip! Even if you accidentally delete something, changes "
 "are not saved until the \"Update\" button is clicked."
 msgstr ""
+"Of u een bevestigingsdialoogvenster wilt weergeven voordat markeringen/"
+"lijnen/vormen uit de kaart worden verwijderd. Pro Tip! Zelfs als u per "
+"ongeluk iets verwijdert, worden wijzigingen pas opgeslagen als er op de knop "
+"Bijwerken is geklikt."
 
 #: inc/Admin/Waymark_Settings.php:612
+#, fuzzy
 msgid "Default Basemap"
-msgstr ""
+msgstr "Standaardbasismap"
 
 #: inc/Admin/Waymark_Settings.php:614
+#, fuzzy
 msgid "Which Basemap to use as the editor default."
-msgstr ""
+msgstr "Welke Basemap te gebruiken als de editor standaard."
 
 #: inc/Admin/Waymark_Settings.php:621
 msgid "Advanced"
-msgstr ""
+msgstr "Geavanceerd"
 
 #: inc/Admin/Waymark_Settings.php:628
 msgid "Debug Mode"
-msgstr ""
+msgstr "Debug modus"
 
 #: inc/Admin/Waymark_Settings.php:630
+#, fuzzy
 msgid ""
 "With debug mode enabled, the plugin will output Map and Settings data in "
 "Admin Dashboard. This may come in handy if you need to report a bug."
 msgstr ""
+"Als de foutopsporingsmodus is ingeschakeld, voert de plug-in kaart- en "
+"instellingengegevens uit in het beheerdersdashboard. Dit kan handig zijn als "
+"u een bug moet melden."
 
 #: inc/Admin/Waymark_Settings.php:632
 msgid "Disable"
-msgstr ""
+msgstr "Uitschakelen"
 
 #: inc/Admin/Waymark_Settings.php:633
 msgid "Enable"
-msgstr ""
+msgstr "Inschakelen"
 
 #: inc/Admin/Waymark_Settings.php:640
+#, fuzzy
 msgid "Settings Data"
-msgstr ""
+msgstr "Instellingengegevens"
 
 #: inc/Admin/Waymark_Settings.php:879
 msgid "Settings Updated"
-msgstr ""
+msgstr "Instellingen correct bijgewerkt"
 
 #: inc/Admin/Waymark_Settings.php:882
+#, fuzzy
 msgid "Action Complete"
-msgstr ""
+msgstr "Actie voltooid"
 
 #: inc/Front/Waymark_Content.php:43 inc/Waymark_Taxonomies.php:14
 #: inc/Waymark_Taxonomies.php:15
 msgid "Collection"
-msgstr ""
+msgstr "Collectie"
 
 #: inc/Front/Waymark_Content.php:61
 msgid "Export"
-msgstr ""
+msgstr "Exportieren"
 
 #: inc/Front/Waymark_Content.php:63
+#, fuzzy
 msgid ""
 "This will download the Overlays currently displayed by the Map in the "
 "selected format."
 msgstr ""
+"Hiermee worden de overlays gedownload die momenteel door de kaart worden "
+"weergegeven in de geselecteerde indeling."
 
 #: inc/Front/Waymark_Shortcode.php:141
 msgid "View Details"
-msgstr ""
+msgstr "Bekijk details"
 
 #: inc/Helpers/Waymark_Helper.php:14
 msgid "Thanks"
-msgstr ""
+msgstr "Bedankt"
 
 #: inc/Helpers/Waymark_Helper.php:18
+#, fuzzy
 msgid ""
 "A big thank you to the following. Without their work this plugin would not "
 "be possible:"
 msgstr ""
+"Een grote dank aan het volgende. Zonder hun werk zou deze plugin niet "
+"mogelijk zijn:"
 
 #: inc/Helpers/Waymark_Helper.php:47
 msgid "and"
-msgstr ""
+msgstr "en"
 
 #: inc/Helpers/Waymark_Helper.php:346
 msgid "Part of"
-msgstr ""
+msgstr "Onderdeel van"
 
 #: inc/Helpers/Waymark_Helper.php:350 inc/Waymark_Types.php:10
 #: inc/Waymark_Types.php:14 inc/Waymark_Types.php:16
 msgid "Map"
-msgstr ""
+msgstr "Kaart"
 
 #: inc/Helpers/Waymark_Input.php:28
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: inc/Helpers/Waymark_Input.php:29
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: inc/Helpers/Waymark_Input.php:53
+#, fuzzy
 msgid "Click here for more details."
-msgstr ""
+msgstr "Klik hier voor meer informatie."
 
 #: inc/Helpers/Waymark_Input.php:395
+#, fuzzy
 msgid "The file type uploaded is not supported."
-msgstr ""
+msgstr "Het geüploade bestandstype wordt niet ondersteund."
 
 #: inc/Waymark_Admin.php:60
+#, fuzzy
 msgid "Remove!"
-msgstr ""
+msgstr "Verwijderen!"
 
 #: inc/Waymark_Admin.php:110
+#, fuzzy
 msgid "Can not duplicate, no post to supplied!"
-msgstr ""
+msgstr "Kan niet dupliceren, geen post te leveren!"
 
 #: inc/Waymark_Admin.php:115
+#, fuzzy
 msgid "Security verification error!"
-msgstr ""
+msgstr "Fout in de beveiligingsverificatie!"
 
 #: inc/Waymark_Admin.php:128
+#, fuzzy
 msgid "Duplicate this post"
-msgstr ""
+msgstr "Dit bericht dupliceren"
 
 #: inc/Waymark_Admin.php:128
 msgid "Duplicate"
-msgstr ""
+msgstr "Kopiëren"
 
 #: inc/Waymark_Admin.php:141
 msgid "Shortcode"
-msgstr ""
+msgstr "Shortcode"
 
 #: inc/Waymark_Admin.php:161
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: inc/Waymark_Admin.php:198
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Collections allow you to organise your Maps. Use the <a href=\"%s"
 "\">Shortcode</a> to display all Maps in a Collection at once. <a href=\"%s\" "
 "class=\"button waymark-right\">Read the Docs &raquo;</a>"
 msgstr ""
+"Met collecties u uw Kaarten organiseren. Gebruik de <a href=\"%s"
+"\">Shortcode</a> om alle kaarten in een verzameling tegelijk weer te geven. "
+"<a href=\"%s\" class=\"button waymark-right\">Lees de documenten »</a>"
 
 #: inc/Waymark_Admin.php:204
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Create Maps here, then add them to your content using the <a href=\"%s"
 "\">Shortcode</a>. <a href=\"%s\" class=\"button waymark-right\">Watch the "
 "Video &raquo;</a>"
 msgstr ""
+"Maak hier kaarten en voeg ze toe aan je inhoud met de <a href=\"%s"
+"\">Shortcode</a>. <a href=\"%s\" class=\"button waymark-right\">Bekijk de "
+"video »</a>"
 
 #: inc/Waymark_Admin.php:222
+#, fuzzy
 msgid "Creating a Map"
-msgstr ""
+msgstr "Een kaart maken"
 
 #: inc/Waymark_Admin.php:223
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "<span class=\"waymark-lead\">Use the Map <a href=\"%s\">Editor</a> to place "
 "Markers, draw Lines/Shapes and display Photos. Each can be given a <a target="
@@ -975,254 +1200,296 @@ msgid ""
 "\">Shortcode</a>. <a class=\"button waymark-right\" href=\"%s\">Watch the "
 "Video &raquo;</a>"
 msgstr ""
+"<span class=\"waymark-lead\">Gebruik de <a href=\"%s\">kaarteditor</a> om "
+"markeringen te plaatsen, lijnen/vormen te tekenen en Foto's weer te geven. "
+"Elk kan een <a target=\"_blank\" href=\"%s\">type,</a>titel, beschrijving en "
+"een afbeelding krijgen.</span><br /><br />U de kaart aan uw inhoud toevoegen "
+"met de <a href=\"%s\">korte code</a>%s. <a class=\"button waymark-right\" "
+"href=\"%s\">Bekijk de video »</a>"
 
 #: inc/Waymark_Admin.php:226 inc/Waymark_Admin.php:230
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "You can add the Map to your content using the %s <a href=\"%s\">Shortcode</"
 "a>. <a class=\"button waymark-right\" href=\"%s\">Watch the Video &raquo;</a>"
 msgstr ""
+"U de kaart aan uw inhoud toevoegen met de <a href=\"%s\">korte code</a>%s. "
+"<a class=\"button waymark-right\" href=\"%s\">Bekijk de video »</a>"
 
 #: inc/Waymark_Admin.php:229 inc/Waymark_Types.php:24
+#, fuzzy
 msgid "Edit Map"
-msgstr ""
+msgstr "Kaart bewerken"
 
 #: inc/Waymark_Config.php:22
+#, fuzzy
 msgid ""
 "The Description you enter here will be displayed on the Map Details page."
 msgstr ""
+"De beschrijving die u hier invoert, wordt weergegeven op de pagina "
+"Kaartdetails."
 
 #: inc/Waymark_Config.php:69
 msgid "Photo"
-msgstr ""
+msgstr "Foto"
 
 #: inc/Waymark_Config.php:69
 msgid "Information"
-msgstr ""
+msgstr "Informatie"
 
 #: inc/Waymark_Config.php:69
 msgid "Alert"
-msgstr ""
+msgstr "Melding"
 
 #: inc/Waymark_Config.php:69
+#, fuzzy
 msgid "Trail Access"
-msgstr ""
+msgstr "Trail-toegang"
 
 #: inc/Waymark_Config.php:69
 msgid "Food"
-msgstr ""
+msgstr "Eten"
 
 #: inc/Waymark_Config.php:69
 msgid "Water"
-msgstr ""
+msgstr "Water"
 
 #: inc/Waymark_Config.php:69
+#, fuzzy
 msgid "Shelter"
-msgstr ""
+msgstr "Onderdak"
 
 #: inc/Waymark_Config.php:69
 msgid "Beer"
-msgstr ""
+msgstr "Beer"
 
 #: inc/Waymark_Config.php:69
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: inc/Waymark_Config.php:69
 msgid "Finish"
-msgstr ""
+msgstr "Voltooien"
 
 #: inc/Waymark_Config.php:78 inc/Waymark_Config.php:86
 msgid "Red"
-msgstr ""
+msgstr "Rood"
 
 #: inc/Waymark_Config.php:78 inc/Waymark_Config.php:86
 msgid "Green"
-msgstr ""
+msgstr "Groen"
 
 #: inc/Waymark_Config.php:78 inc/Waymark_Config.php:86
 msgid "Blue"
-msgstr ""
+msgstr "Blauw"
 
 #: inc/Waymark_Front.php:62
+#, fuzzy
 msgid "Max. Elevation: "
-msgstr ""
+msgstr "Maximale hoogte: "
 
 #: inc/Waymark_Front.php:63
+#, fuzzy
 msgid "Min. Elevation: "
-msgstr ""
+msgstr "Min Elevation: "
 
 #: inc/Waymark_Taxonomies.php:16
 msgid "All Collections"
-msgstr ""
+msgstr "Alle collecties"
 
 #: inc/Waymark_Taxonomies.php:17
 msgid "Parent"
-msgstr ""
+msgstr "Hoofd"
 
 #: inc/Waymark_Taxonomies.php:18
+#, fuzzy
 msgid "Parent Collection:"
-msgstr ""
+msgstr "Bovenliggende verzameling:"
 
 #: inc/Waymark_Taxonomies.php:19
+#, fuzzy
 msgid "New Collection Name"
-msgstr ""
+msgstr "Nieuwe naam van de verzameling"
 
 #: inc/Waymark_Taxonomies.php:20
+#, fuzzy
 msgid "Create Collection"
-msgstr ""
+msgstr "Collectie maken"
 
 #: inc/Waymark_Taxonomies.php:21
 msgid "Edit Collection"
-msgstr ""
+msgstr "Bewerk collectie"
 
 #: inc/Waymark_Taxonomies.php:22
 msgid "Update Collection"
-msgstr ""
+msgstr "Bewerk collectie"
 
 #: inc/Waymark_Taxonomies.php:23
+#, fuzzy
 msgid "View Collection"
-msgstr ""
+msgstr "Collectie bekijken"
 
 #: inc/Waymark_Taxonomies.php:24
+#, fuzzy
 msgid "Separate Collections with commas"
-msgstr ""
+msgstr "Afzonderlijke collecties met komma's"
 
 #: inc/Waymark_Taxonomies.php:25
+#, fuzzy
 msgid "Add or remove Collections"
-msgstr ""
+msgstr "Verzamelingen toevoegen of verwijderen"
 
 #: inc/Waymark_Taxonomies.php:26
 msgid "Choose from the most used"
-msgstr ""
+msgstr "Kies uit de meest gebruikte"
 
 #: inc/Waymark_Taxonomies.php:27
+#, fuzzy
 msgid "Popular Collections"
-msgstr ""
+msgstr "Populaire collecties"
 
 #: inc/Waymark_Taxonomies.php:28
 msgid "Search Collections"
-msgstr ""
+msgstr "Zoek collecties"
 
 #: inc/Waymark_Taxonomies.php:29
 msgid "Not Found"
-msgstr ""
+msgstr "Niet gevonden"
 
 #: inc/Waymark_Taxonomies.php:30
+#, fuzzy
 msgid "No Collections"
-msgstr ""
+msgstr "Collecties"
 
 #: inc/Waymark_Taxonomies.php:31
 msgid "Collection list"
-msgstr ""
+msgstr "Collectielijst"
 
 #: inc/Waymark_Taxonomies.php:32
+#, fuzzy
 msgid "Collection list navigation"
-msgstr ""
+msgstr "Navigatie van verzamelingslijst"
 
 #: inc/Waymark_Types.php:17
+#, fuzzy
 msgid "Map Archives"
-msgstr ""
+msgstr "Kaartarchieven"
 
 #: inc/Waymark_Types.php:18
+#, fuzzy
 msgid "Map Attributes"
-msgstr ""
+msgstr "Kaartkenmerken"
 
 #: inc/Waymark_Types.php:19
+#, fuzzy
 msgid "Parent Map:"
-msgstr ""
+msgstr "Bovenliggende kaart:"
 
 #: inc/Waymark_Types.php:20
 msgid "All Maps"
-msgstr ""
+msgstr "Alle kaarten"
 
 #: inc/Waymark_Types.php:21
 msgid "Add New Map"
-msgstr ""
+msgstr "Nieuwe kaart toevoegen"
 
 #: inc/Waymark_Types.php:22
 msgid "Add New"
-msgstr ""
+msgstr "Nieuwe toevoegen"
 
 #: inc/Waymark_Types.php:25
 msgid "Update Map"
-msgstr ""
+msgstr "Kaart bijwerken"
 
 #: inc/Waymark_Types.php:26
 msgid "View Map"
-msgstr ""
+msgstr "Kaart bekijken"
 
 #: inc/Waymark_Types.php:27
 msgid "View Maps"
-msgstr ""
+msgstr "Kaarten bekijken"
 
 #: inc/Waymark_Types.php:28
 msgid "Search Map"
-msgstr ""
+msgstr "Zoek kaart"
 
 #: inc/Waymark_Types.php:29
 msgid "Not found"
-msgstr ""
+msgstr "Niet gevonden"
 
 #: inc/Waymark_Types.php:30
 msgid "Not found in Trash"
-msgstr ""
+msgstr "Niet gevonden in prullenbak"
 
 #: inc/Waymark_Types.php:31
 msgid "Featured Image"
-msgstr ""
+msgstr "Uitgelichte afbeelding"
 
 #: inc/Waymark_Types.php:32
 msgid "Set featured image"
-msgstr ""
+msgstr "Uitgelichte afbeelding instellen"
 
 #: inc/Waymark_Types.php:33
 msgid "Remove featured image"
-msgstr ""
+msgstr "Verwijder uitgelichte afbeelding"
 
 #: inc/Waymark_Types.php:34
 msgid "Use as featured image"
-msgstr ""
+msgstr "Gebruik als uitgelichte afbeelding"
 
 #: inc/Waymark_Types.php:35
+#, fuzzy
 msgid "Insert into Map"
-msgstr ""
+msgstr "Invoegen in Kaart"
 
 #: inc/Waymark_Types.php:36
+#, fuzzy
 msgid "Uploaded to this Map"
-msgstr ""
+msgstr "Geüpload naar deze kaart"
 
 #: inc/Waymark_Types.php:37
+#, fuzzy
 msgid "Map list"
-msgstr ""
+msgstr "Kaartlijst"
 
 #: inc/Waymark_Types.php:38
+#, fuzzy
 msgid "Maps list navigation"
-msgstr ""
+msgstr "Navigatie van kaartenlijst"
 
 #: inc/Waymark_Types.php:39
+#, fuzzy
 msgid "Filter Map list"
-msgstr ""
+msgstr "Lijst met filterkaart"
 
 #. Plugin Name of the plugin/theme
+#, fuzzy
 msgid "Waymark"
-msgstr ""
+msgstr "Waymark"
 
 #. Plugin URI of the plugin/theme
+#, fuzzy
 msgid "https://www.joesway.ca/waymark/demo/"
-msgstr ""
+msgstr "https://www.joesway.ca/waymark/demo/"
 
 #. Description of the plugin/theme
+#, fuzzy
 msgid ""
 "Mapping with WordPress made easy. With Waymark enabled, click on the \"Maps"
 "\" link in the sidebar to create and edit Maps. Once you are happy with your "
 "Map, copy the Waymark shortcode and add it to your content."
 msgstr ""
+"Mapping met WordPress eenvoudig gemaakt. Als Waymark is ingeschakeld, klikt "
+"u op de koppeling Kaarten in de zijbalk om Kaarten te maken en te bewerken. "
+"Zodra u tevreden bent met uw kaart, kopieert u de Shortcode Waymark en voegt "
+"u deze toe aan uw inhoud."
 
 #. Author of the plugin/theme
+#, fuzzy
 msgid "Joe Hawes"
-msgstr ""
+msgstr "Joe Hawes"
 
 #. Author URI of the plugin/theme
+#, fuzzy
 msgid "https://www.josephhawes.co.uk/"
-msgstr ""
+msgstr "https://www.josephhawes.co.uk/"
