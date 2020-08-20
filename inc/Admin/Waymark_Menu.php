@@ -12,17 +12,17 @@ class Waymark_Menu {
 		add_menu_page(Waymark_Config::get_name(true), Waymark_Config::get_name(true), 'edit_posts', $this->menu_slug, '', 'none', 21);		
 
 		//Maps
-    add_submenu_page($this->menu_slug, esc_html__('Maps', 'waymark-plugin'), esc_html__('Maps', 'waymark-plugin'), 'edit_posts', 'edit.php?post_type=waymark_map'); 
-    add_submenu_page($this->menu_slug, esc_html__('New Map', 'waymark-plugin'), esc_html__('New Map', 'waymark-plugin'), 'edit_posts', 'post-new.php?post_type=waymark_map'); 
+    add_submenu_page($this->menu_slug, esc_html__('Maps', 'waymark' ), esc_html__('Maps', 'waymark' ), 'edit_posts', 'edit.php?post_type=waymark_map'); 
+    add_submenu_page($this->menu_slug, esc_html__('New Map', 'waymark' ), esc_html__('New Map', 'waymark' ), 'edit_posts', 'post-new.php?post_type=waymark_map'); 
 
 		//Collections
-    add_submenu_page($this->menu_slug, esc_html__('Collections', 'waymark-plugin'), esc_html__('Collections', 'waymark-plugin'), 'manage_categories', 'edit-tags.php?taxonomy=waymark_collection&post_type=waymark_map'); 
+    add_submenu_page($this->menu_slug, esc_html__('Collections', 'waymark' ), esc_html__('Collections', 'waymark' ), 'manage_categories', 'edit-tags.php?taxonomy=waymark_collection&post_type=waymark_map'); 
 
 		//Help
-		add_submenu_page($this->menu_slug, esc_html__('Help', 'waymark-plugin'), esc_html__('Help', 'waymark-plugin'), 'edit_posts', 'waymark-help', array($this, 'help_page_content'));
+		add_submenu_page($this->menu_slug, esc_html__('Help', 'waymark' ), esc_html__('Help', 'waymark' ), 'edit_posts', 'waymark-help', array($this, 'help_page_content'));
 	
 		//Settings
-		add_submenu_page($this->menu_slug, esc_html__('Settings', 'waymark-plugin'), esc_html__('Settings', 'waymark-plugin'), 'manage_options', 'waymark-settings', array(new Waymark_Settings, 'content_admin_page'));					
+		add_submenu_page($this->menu_slug, esc_html__('Settings', 'waymark' ), esc_html__('Settings', 'waymark' ), 'manage_options', 'waymark-settings', array(new Waymark_Settings, 'content_admin_page'));					
 		
 		add_action('admin_menu', array($this, 'modify_menu'), 1000);
 		

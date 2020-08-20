@@ -9,7 +9,7 @@ Author: Joe Hawes
 Author URI: https://www.josephhawes.co.uk/
 License: GPL2
 
-Text Domain:         waymark-plugin
+Text Domain:         waymark
 Domain Path:         /languages
 
 */
@@ -48,7 +48,7 @@ require_once('inc/Waymark_Admin.php');
  
 function waymark_load_plugin_textdomain() {
 	
-	load_plugin_textdomain( "waymark-plugin", false, basename( dirname( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( "waymark", false, basename( dirname( __FILE__ ) ) . '/languages/' );
 
 }
 
