@@ -8,14 +8,7 @@ Version: 0.9.14
 Author: Joe Hawes
 Author URI: https://www.josephhawes.co.uk/
 License: GPL2
-
-Text Domain:         waymark-plugin
-Domain Path:         /languages
-
 */
-
-add_action( 'plugins_loaded', 'waymark_load_plugin_textdomain' );
-
 
 //Base
 require_once('inc/Waymark_Config.php');
@@ -36,20 +29,3 @@ require_once('inc/Waymark_Front.php');
 
 //Admin
 require_once('inc/Waymark_Admin.php');
-
-//========================================================================================================
-
-/**
- * Initialise translations
- */
-
-
-
- 
-function waymark_load_plugin_textdomain() {
-	
-	load_plugin_textdomain( "waymark-plugin", false, basename( dirname( __FILE__ ) ) . '/languages/' );
-
-}
-
-//========================================================================================================
