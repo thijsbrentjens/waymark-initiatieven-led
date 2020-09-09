@@ -1,32 +1,36 @@
 <?php
+
 	
 class Waymark_Types {
 	private $types;
 	
 	function __construct() {
-		
+
+//die( ' yes ' . CPT_INITIATIEF );	
+
 		$this->types = array(
-			//Map
-			'initiatief' => array(
-				'label'                 => esc_html__('initiatief', 'waymark' ),
+
+			// Custom post types
+			CPT_INITIATIEF => array(
+				'label'                 => esc_html__( CPT_INITIATIEF, 'waymark' ),
 				'description'           => '',
 				'labels'                => array(
-					'name'                  => esc_html__('initiatieven', 'waymark' ),
-					'singular_name'         => esc_html__('initiatief', 'waymark' ),
-					'menu_name'             => esc_html__('initiatieven', 'waymark' ),
-					'name_admin_bar'        => esc_html__('initiatief', 'waymark' ),
+					'name'                  => esc_html__('Initiatieven', 'waymark' ),
+					'singular_name'         => esc_html__('Initiatief', 'waymark' ),
+					'menu_name'             => esc_html__('Initiatieven', 'waymark' ),
+					'name_admin_bar'        => esc_html__('Initiatief', 'waymark' ),
 					'archives'              => esc_html__('Overzicht initiatieven', 'waymark' ),
-					'attributes'            => esc_html__('Map initiatief', 'waymark' ),
+					'attributes'            => esc_html__('Eigenschappen initiatief', 'waymark' ),
 					'parent_item_colon'     => esc_html__('Parent Map:', 'waymark' ),
-					'all_items'             => esc_html__('All initiatief', 'waymark' ),
-					'add_new_item'          => esc_html__('Add New initiatief', 'waymark' ),
-					'add_new'               => esc_html__('Add New', 'waymark' ),
-					'new_item'              => esc_html__('New initiatief', 'waymark' ),
-					'edit_item'             => esc_html__('Edit initiatief', 'waymark' ),
+					'all_items'             => esc_html__('Alle initiatieven', 'waymark' ),
+					'add_new_item'          => esc_html__('Initiatief toevoegen', 'waymark' ),
+					'add_new'               => esc_html__('Toevoegen', 'waymark' ),
+					'new_item'              => esc_html__('Nieuw initiatief', 'waymark' ),
+					'edit_item'             => esc_html__('Bewerk initiatief', 'waymark' ),
 					'update_item'           => esc_html__('Update initiatief', 'waymark' ),
-					'view_item'             => esc_html__('View initiatief', 'waymark' ),
-					'view_items'            => esc_html__('View initiatief', 'waymark' ),
-					'search_items'          => esc_html__('Search initiatief', 'waymark' ),
+					'view_item'             => esc_html__('Bekijk initiatief', 'waymark' ),
+					'view_items'            => esc_html__('Bekijk initiatieven', 'waymark' ),
+					'search_items'          => esc_html__('Zoek initiatief', 'waymark' ),
 					'not_found'             => esc_html__('Not found', 'waymark' ),
 					'not_found_in_trash'    => esc_html__('Not found in Trash', 'waymark' ),
 					'featured_image'        => esc_html__('Featured Image', 'waymark' ),
@@ -39,7 +43,7 @@ class Waymark_Types {
 					'items_list_navigation' => esc_html__('Maps list navigation', 'waymark' ),
 					'filter_items_list'     => esc_html__('Filter initiatief list', 'waymark' ),
 				),
-				'supports'              => array('title', 'author', 'excerpt', 'editor' ),
+				'supports'              => array( 'title', 'author', 'excerpt', 'editor' ),
 				'hierarchical'          => false,
 				'public'                => true,
 				'show_ui'               => true,
@@ -51,9 +55,10 @@ class Waymark_Types {
 				'has_archive'           => false,
 				'exclude_from_search'   => false,
 				'publicly_queryable'    => true,
-				'rewrite'               => array('slug' => 'initiatief'),
+				'rewrite'               => array('slug' => CPT_INITIATIEF ),
 				'capability_type'       => 'post'
 			),
+			
 			'waymark_map' => array(
 				'label'                 => esc_html__('Map', 'waymark' ),
 				'description'           => '',

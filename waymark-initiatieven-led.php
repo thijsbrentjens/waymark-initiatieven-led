@@ -14,6 +14,10 @@ Domain Path:         /languages
 
 */
 
+if ( ! defined( 'CPT_INITIATIEF' ) ) {
+	define( 'CPT_INITIATIEF', 'initiatief' );
+}
+
 add_action( 'plugins_loaded', 'waymark_load_plugin_textdomain' );
 
 
@@ -37,6 +41,7 @@ require_once('inc/Waymark_Front.php');
 //Admin
 require_once('inc/Waymark_Admin.php');
 
+
 //========================================================================================================
 
 /**
@@ -54,13 +59,63 @@ function waymark_load_plugin_textdomain() {
 
 //========================================================================================================
 
-// Method 2: Setting.
+// Google Maps API key
+
 function my_acf_init() {
     acf_update_setting('google_api_key', 'AIzaSyB5vVMUunag3KLrIcsMK9dWhVhHVzj_Ub0');
 }
 
 add_action('acf/init', 'my_acf_init');
 
+//========================================================================================================
+
+// Add the ACF (advanced custom fields) 
+
+if( function_exists('acf_add_local_field_group') ):
+
+acf_add_local_field_group(array(
+	'key' => 'group_5f589cb3955cc',
+	'title' => 'Velden voor initiatief',
+	'fields' => array(
+		array(
+			'key' => 'field_5f589cc1c069d',
+			'label' => 'Locatie',
+			'name' => 'locatie',
+			'type' => 'google_map',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'center_lat' => '',
+			'center_lng' => '',
+			'zoom' => '',
+			'height' => '',
+		),
+	),
+	'location' => array(
+		array(
+			array(
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => CPT_INITIATIEF,
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'acf_after_title',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => true,
+	'description' => '',
+));
+
+endif;
 
 //========================================================================================================
 
