@@ -1,11 +1,11 @@
 <?php
 	
 /*
-Plugin Name: Waymark
+Plugin Name: Waymark Digitale Overheid
 Plugin URI: https://www.joesway.ca/waymark/demo/
 Description: Mapping with WordPress made easy. With Waymark enabled, click on the "Maps" link in the sidebar to create and edit Maps. Once you are happy with your Map, copy the Waymark shortcode and add it to your content.
-Version: 0.9.14
-Author: Joe Hawes
+Version: 1.0.1
+Author: Paul van Buuren / Thijs Brentjens
 Author URI: https://www.josephhawes.co.uk/
 License: GPL2
 
@@ -53,3 +53,14 @@ function waymark_load_plugin_textdomain() {
 }
 
 //========================================================================================================
+
+// Method 2: Setting.
+function my_acf_init() {
+    acf_update_setting('google_api_key', 'AIzaSyB5vVMUunag3KLrIcsMK9dWhVhHVzj_Ub0');
+}
+
+add_action('acf/init', 'my_acf_init');
+
+
+//========================================================================================================
+

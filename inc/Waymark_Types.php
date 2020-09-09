@@ -4,8 +4,56 @@ class Waymark_Types {
 	private $types;
 	
 	function __construct() {
+		
 		$this->types = array(
 			//Map
+			'initiatief' => array(
+				'label'                 => esc_html__('initiatief', 'waymark' ),
+				'description'           => '',
+				'labels'                => array(
+					'name'                  => esc_html__('initiatieven', 'waymark' ),
+					'singular_name'         => esc_html__('initiatief', 'waymark' ),
+					'menu_name'             => esc_html__('initiatieven', 'waymark' ),
+					'name_admin_bar'        => esc_html__('initiatief', 'waymark' ),
+					'archives'              => esc_html__('Overzicht initiatieven', 'waymark' ),
+					'attributes'            => esc_html__('Map initiatief', 'waymark' ),
+					'parent_item_colon'     => esc_html__('Parent Map:', 'waymark' ),
+					'all_items'             => esc_html__('All initiatief', 'waymark' ),
+					'add_new_item'          => esc_html__('Add New initiatief', 'waymark' ),
+					'add_new'               => esc_html__('Add New', 'waymark' ),
+					'new_item'              => esc_html__('New initiatief', 'waymark' ),
+					'edit_item'             => esc_html__('Edit initiatief', 'waymark' ),
+					'update_item'           => esc_html__('Update initiatief', 'waymark' ),
+					'view_item'             => esc_html__('View initiatief', 'waymark' ),
+					'view_items'            => esc_html__('View initiatief', 'waymark' ),
+					'search_items'          => esc_html__('Search initiatief', 'waymark' ),
+					'not_found'             => esc_html__('Not found', 'waymark' ),
+					'not_found_in_trash'    => esc_html__('Not found in Trash', 'waymark' ),
+					'featured_image'        => esc_html__('Featured Image', 'waymark' ),
+					'set_featured_image'    => esc_html__('Set featured image', 'waymark' ),
+					'remove_featured_image' => esc_html__('Remove featured image', 'waymark' ),
+					'use_featured_image'    => esc_html__('Use as featured image', 'waymark' ),
+					'insert_into_item'      => esc_html__('Insert into Map', 'waymark' ),
+					'uploaded_to_this_item' => esc_html__('Uploaded to this initiatief', 'waymark' ),
+					'items_list'            => esc_html__('Map list', 'waymark' ),
+					'items_list_navigation' => esc_html__('Maps list navigation', 'waymark' ),
+					'filter_items_list'     => esc_html__('Filter initiatief list', 'waymark' ),
+				),
+				'supports'              => array('title', 'author', 'excerpt', 'editor' ),
+				'hierarchical'          => false,
+				'public'                => true,
+				'show_ui'               => true,
+				'show_in_menu'          => true,
+				'menu_position'         => 6,
+				'show_in_admin_bar'     => true,
+				'show_in_nav_menus'     => true,
+				'can_export'            => true,
+				'has_archive'           => false,
+				'exclude_from_search'   => false,
+				'publicly_queryable'    => true,
+				'rewrite'               => array('slug' => 'initiatief'),
+				'capability_type'       => 'post'
+			),
 			'waymark_map' => array(
 				'label'                 => esc_html__('Map', 'waymark' ),
 				'description'           => '',
