@@ -116,3 +116,30 @@ acf_add_local_field_group(array(
 endif;
 */
 //========================================================================================================
+
+function prefix_add_content( $content ) {
+
+	$before  = "This comes before the content.";
+	$after   = "This comes after the content (like my Podcast badge).";
+	$content = $before . $content . $after;
+
+	return $content;
+}
+
+//add_filter( 'the_content', 'prefix_add_content' );
+
+//========================================================================================================
+
+function get_custom_post_type_template( $archive_template ) {
+	global $post;
+
+	if ( is_post_type_archive ( CPT_INITIATIEF ) ) {
+		$archive_template = dirname( __FILE__ ) . '/inc/templates/archive-initiatieven.php';
+	}
+	return $archive_template;
+}
+
+add_filter( 'archive_template', 'get_custom_post_type_template' ) ;
+
+//========================================================================================================
+
