@@ -60,7 +60,7 @@ function waymark_load_plugin_textdomain() {
 // Google Maps API key
 
 function my_acf_init() {
-	acf_update_setting( 'google_api_key', 'AIzaSyB5vVMUunag3KLrIcsMK9dWhVhHVzj_Ub0' );
+	acf_update_setting( 'google_api_key', '' );
 }
 
 add_action( 'acf/init', 'my_acf_init' );
