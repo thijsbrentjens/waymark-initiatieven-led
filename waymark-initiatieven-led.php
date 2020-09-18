@@ -58,7 +58,7 @@ function waymark_load_plugin_textdomain() {
 //========================================================================================================
 
 // Google Maps API key
-
+// TODO: Thijs: not needed?
 function my_acf_init() {
 	acf_update_setting( 'google_api_key', '' );
 }
@@ -67,7 +67,7 @@ add_action( 'acf/init', 'my_acf_init' );
 
 //========================================================================================================
 
-// Add the ACF (advanced custom fields) 
+// Add the ACF (advanced custom fields)
 /*
 if( function_exists('acf_add_local_field_group') ):
 
@@ -118,15 +118,33 @@ endif;
 //========================================================================================================
 
 function prefix_add_content( $content ) {
-
 	$before  = "This comes before the content.";
-	$after   = "This comes after the content (like my Podcast badge).";
+	$after   = "This comes after the content.";
+	$content = $before . $content . $after;
+	return $content;
+}
+// add_filter( 'the_content', 'prefix_add_content' );
+
+function add_location_data ( $content ) {
+	global $post;
+	// testing function for locationdata
+	$before  = "<h3>PostType: " . $post->post_type . "</h3>";
+
+	$after   = "";
+	// TODO: how to get the content here?
+	if($post->post_type === 'initiatief') {
+		$after .= "<h4>Location field output</h4>";
+		// TODO: onfig name of the field? Or detrmine this somehow differently
+		//
+		$after .= the_field('location');
+	}
+
 	$content = $before . $content . $after;
 
 	return $content;
 }
 
-//add_filter( 'the_content', 'prefix_add_content' );
+add_filter( 'the_content', 'add_location_data' );
 
 //========================================================================================================
 
@@ -142,4 +160,3 @@ function get_custom_post_type_template( $archive_template ) {
 add_filter( 'archive_template', 'get_custom_post_type_template' ) ;
 
 //========================================================================================================
-

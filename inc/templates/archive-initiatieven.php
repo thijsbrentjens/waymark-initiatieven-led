@@ -9,26 +9,36 @@ if ( function_exists( 'genesis' ) ) {
 	genesis();
 
 } else {
-
+	global $post;
 
 	get_header(); ?>
 
     <div id="primary" class="content-area">
         <div id="content" class="clearfix">
-			<?php while ( have_posts() ) : the_post(); ?>
+					<h3>Initiatieven posts</h3>
+			<?php while ( have_posts() ) : the_post();
+				// <?php
+				$contenttype     = get_post_type();
+				// echo $contenttype;
+				// TODO: add an HTML encoding?
+				// add a waymark map?
+				echo "<h4>".the_field('post_title')."</h4>";
+				echo "<div>".the_field('content')."</div>";
+				// echo the_field('description');
+				// TODO: raw? use the location attrbiutes to create data-attributes for the map
 
-				<?php if ( $template = myplugin_get_template( 'content-single', get_post_type() ) ) {
-					include $template;
-				} else {
-					get_template_part( 'content', 'single' );
-				} ?>
+				echo the_field('location');
+				?>
 
 				<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() ) :
-					comments_template();
-				endif;
+				// if ( $template = myplugin_get_template( 'content-single', get_post_type() ) ) {
+				// 	include $template;
+				// } else {
+				// 	get_template_part( 'content', 'single' );
+				// }
+				//
 				?>
+
 
 			<?php endwhile; ?>
 
