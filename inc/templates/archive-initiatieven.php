@@ -16,34 +16,44 @@ if ( function_exists( 'genesis' ) ) {
     <div id="primary" class="content-area">
         <div id="content" class="clearfix">
 					<h3>Initiatieven posts</h3>
-			<?php while ( have_posts() ) : the_post();
-				// <?php
-				$contenttype     = get_post_type();
-				// echo $contenttype;
-				// TODO: add an HTML encoding?
-				// add a waymark map?
-				echo "<h4>".the_field('post_title')."</h4>";
-				echo "<div>".the_field('content')."</div>";
-				// echo the_field('description');
-				// TODO: raw? use the location attrbiutes to create data-attributes for the map
+					<ul>
+				<?php while ( have_posts() ) : the_post();
 
-				echo the_field('location');
+					$contenttype     = get_post_type();
+					// TODO: check for contenttype being the customtype?
+					// echo $contenttype;
+
+				// use the location attributes to create data-attributes for the map
+				// second term false: current post
+				// TODO: configurable name for the location field?
+				$locationField = get_field('location', false, false);
+				$category = "onbekend";
+				$categoryField = get_field('category', false, false);
+				$title = isset( $post->post_title ) ? $post->post_title : '';
+				$permalink = get_post_permalink($post->id);
+				if ($categoryField) {
+					$category = $categoryField;
+				} else {
+					// category --> unknown
+				}
+
+				if ($locationField != false) {
+					// TODO: is the location the center of the map, or better the first marker?
+					// preferably the first marker, need to decide with Paul
+					printf( '<li class="map-object" data-latitude="%s" data-longitude="%s" data-category="%s">', $locationField["lat"], $locationField["lng"], $category );
+					printf ('<h4>%s</h4>', $title);
+					printf ('<span class="category %s">Categorie: %s</span>', $category, $category);
+					printf ('<a href="%s" class="postdetails">Meer informatie over dit initiatief</a>', $permalink);
+					echo '</li>';
+				}
 				?>
-
-				<?php
-				// if ( $template = myplugin_get_template( 'content-single', get_post_type() ) ) {
-				// 	include $template;
-				// } else {
-				// 	get_template_part( 'content', 'single' );
-				// }
-				//
-				?>
-
 
 			<?php endwhile; ?>
-
+					</ul>
         </div><!-- #content -->
     </div><!-- #primary -->
+
+<!-- TODO: now initiate the map here -->
 
 	<?php
 
